@@ -20,8 +20,8 @@ hue_bridge.connect()
 ##################################################
 #                     logging                    #
 ##################################################
-#logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-#logger = logging.getLogger(__name__)
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+logger = logging.getLogger(__name__)
 ##################################################
 #                   end logging                  #
 ##################################################
@@ -212,7 +212,7 @@ def main():
     dp.add_handler(MessageHandler(Filters.text, answer, Filters.user(username="kridyltneg")))
 
     # log all errors
-    #dp.add_error_handler(error)
+    dp.add_error_handler(error)
 
     # Start the Bot
     updater.start_polling()
