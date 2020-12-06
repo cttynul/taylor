@@ -1,4 +1,4 @@
-# Taylor
+# Taylor 👱🏻‍♀️
 #### My lovely personal assistant.
 
 ![bot_pic](https://raw.githubusercontent.com/cttynul/taylor/main/gitpic/botpic.jpg) 
