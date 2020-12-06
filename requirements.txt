@@ -1,6 +1,8 @@
 requests>=2.20.0 
 python-telegram-bot
 chatterbot
-chatterbot-corpus 
+chatterbot-corpus
+phue
+pyyalm
 # Or you need not a pip package, @'...' specifies git branch
 #git+https://github.com/Kylmakalle/pyTelegramBotAPI.git@feature-BotAPIV3
