@@ -6,7 +6,7 @@
 ## How it works?
 **Taylor** is just my lovely personal assistant, powered by [NLTK](https://www.nltk.org/) and [ChatterBot](https://github.com/gunthercox/ChatterBot) with some [custom italian corpus](https://github.com/cttynul/chatterbot-corpus)
 
-She will learn everything you teach during a conversation, **warning** out of the box is a bit stupid and it's **only in italian**. 
+She will learn everything you teach during a conversation, **warning** out of the box **Taylor** is a bit stupid and she can speak **only italian**.
 
 ## Usage
 1. Create a ```config.json``` file in **Taylor** root directory like this:
@@ -67,8 +67,8 @@ WantedBy=multi-user.target
 ```
                    Learning Only License License (LOL)
 
-Copyright (c) 2020, cttynul
-All rights reserved.
+                      Copyright (c) 2020, cttynul
+                          All rights reserved.
 
  *  The intended purpose of this code is educational only, and that purpose
     must be considered in any use or redistribution of the code or any
