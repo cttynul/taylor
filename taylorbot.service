@@ -1,0 +1,14 @@
+[Unit]
+Description=Taylor Telegram Bot
+After=network.target
+
+[Service]
+User=user
+Group=usergroup
+WorkingDirectory=/path/to/daemon/taylor/
+ExecStart= /bin/python3 bot.py
+Restart=on-failure
+RestartSec=5sec
+
+[Install]
+WantedBy=multi-user.target
